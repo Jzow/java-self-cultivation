@@ -1,3 +1,3 @@
 # JavaSelfCultivation
 
-Java Language Deep Learning
+Java basic language learning
