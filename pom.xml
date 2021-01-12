@@ -13,6 +13,7 @@
         <module>ThreadLearning</module>
         <module>DesignPattern</module>
         <module>CollectionLearning</module>
+        <module>StremLibrary</module>
     </modules>
 
 </project>
