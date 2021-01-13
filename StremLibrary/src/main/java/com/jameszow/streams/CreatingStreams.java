@@ -1,6 +1,5 @@
 package com.jameszow.streams;
 
-import java.io.File;
 import java.io.IOException;
 import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
@@ -61,9 +60,8 @@ public class CreatingStreams {
         }
         System.out.println();
     }
-
     public static void main(String [] args) throws IOException {
-        Path path = Paths.get("/words.txt");
+        Path path = Paths.get("../JavaSelfCultivation/StremLibrary/src/main/resources/words.txt");
         var contents = new String(Files.readAllBytes(path), StandardCharsets.UTF_8);
 
         Stream<String> words = Stream.of(contents.split("\r\n"));

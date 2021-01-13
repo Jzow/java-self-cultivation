@@ -18,7 +18,7 @@ public class CountLongWords {
 
     public static void main(String [] args) throws IOException {
         var contents = new String(Files.readAllBytes(
-                Paths.get("/words.txt")), StandardCharsets.UTF_8);
+                Paths.get("../JavaSelfCultivation/StremLibrary/src/main/resources/words.txt")), StandardCharsets.UTF_8);
         List<String> words = List.of(contents.split("\r\n"));
 
         long count = 0;
