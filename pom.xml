@@ -14,6 +14,10 @@
         <module>DesignPattern</module>
         <module>CollectionLearning</module>
         <module>StremLibrary</module>
+        <module>LeetCode</module>
     </modules>
 
+    <build>
+        <finalName>JavaSelfCultivation</finalName>
+    </build>
 </project>
