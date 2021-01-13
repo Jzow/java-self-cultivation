@@ -11,6 +11,7 @@
         <module name="CollectionLearning" />
         <module name="StremLibrary" />
         <module name="ThreadLearning" />
+        <module name="LeetCode" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="14" />
