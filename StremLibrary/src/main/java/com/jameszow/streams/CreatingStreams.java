@@ -70,6 +70,7 @@ public class CreatingStreams {
         }
         System.out.println();
     }
+
     public static void main(String [] args) throws IOException {
         Path path = Paths.get("../JavaSelfCultivation/StremLibrary/src/main/resources/words.txt");
         var contents = new String(Files.readAllBytes(path), StandardCharsets.UTF_8);
