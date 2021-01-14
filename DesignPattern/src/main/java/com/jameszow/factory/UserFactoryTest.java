@@ -14,12 +14,9 @@
 package com.jameszow.factory;
 
 /**
- * ClassName: UserFactoryTest
- * Description: TODD
- * Author: James Zow
- * Date: 2021/1/6 0006 21:08
- * Version:
- **/
+ * This class test BuilderFactory {@link UserFactory}
+ * 此类测试UserFactory的封装方法
+ */
 public class UserFactoryTest {
 
     public static void main(String [] args){

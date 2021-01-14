@@ -17,14 +17,13 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
- * ClassName: StopThread
+ * This class Thread synchronization test
+ * 此类创建线程同步测试
  * Description: 当多个线程共享可变的数据时候，每个读或者写的线程都必须执行同步，
  * 如若不同步，会导致主线程修改的数据，后面的线程是无法看到主线程修改的数据，
  * 同步线程可使用synchronized关键字对方法进行修饰，或者最好使用volatile关键字进行同步
- * Author: James Zow
- * Date: 2021/1/5 0005 21:47
- * Version: 1.0
- **/
+ *
+ */
 public class StopThread {
 
     private static boolean stopRequested;

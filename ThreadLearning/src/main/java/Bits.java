@@ -1,10 +1,7 @@
 /**
- * ClassName: bits
- * Description: 线程池参数字节换算
- * Author: James Zow
- * Date: 2020/11/15 0015 17:30
- * Version:
- **/
+ * This class test bits conversion operation
+ * 此类用于测试bits转换操作
+ */
 public class Bits {
 
     private static final int COUNT_BITS = Integer.SIZE - 3;

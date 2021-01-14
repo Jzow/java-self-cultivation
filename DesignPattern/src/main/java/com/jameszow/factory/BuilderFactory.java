@@ -14,12 +14,9 @@
 package com.jameszow.factory;
 
 /**
- * ClassName: BuilderFactory
- * Description: TODD
- * Author: James Zow
- * Date: 2020/11/17 0017 21:10
- * Version:
- **/
+ * This class Through factory packaging entity class
+ * 此类通过工厂模式封装实体类
+ */
 public class BuilderFactory {
 
     private final String name;

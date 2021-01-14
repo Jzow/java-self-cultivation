@@ -28,12 +28,9 @@ import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
 /**
- * ClassName: CreatingStreams
- * Description: 创建流的操作
- * Author: James Zow
- * Date: 2021/1/12 0012 21:47
- * Version:
- **/
+ * This class creates a stream and performs stream operations
+ * 这个类创建一个流 并执行流操作
+ */
 public class CreatingStreams {
 
     public static class commonMethod{

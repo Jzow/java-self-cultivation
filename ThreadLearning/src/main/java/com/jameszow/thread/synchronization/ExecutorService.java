@@ -18,12 +18,9 @@ import java.util.Date;
 import java.util.concurrent.*;
 
 /**
- * ClassName: Test
- * Description: TODD
- * Author: James Zow
- * Date: 2020/11/15 0015 15:08
- * Version:
- **/
+ * This class is used for concurrent thread operations
+ * 此类用于并发线程操作
+ */
 public class ExecutorService {
 
     private static final int CORE_POOL_SIZE = 5;

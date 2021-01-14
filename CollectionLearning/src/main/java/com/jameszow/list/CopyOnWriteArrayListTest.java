@@ -17,12 +17,9 @@ import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
- * ClassName: CopyOnWriteArrayList
- * Description: TODD
- * Author: James Zow
- * Date: 2021/1/6 0006 21:32
- * Version:
- **/
+ * test CopyOnWriteArrayList method.
+ * 测试CopyOnWriteArrayList方法
+ */
 public class CopyOnWriteArrayListTest {
 
     public static void main(String [] args){

@@ -16,12 +16,9 @@ package com.jameszow.factory;
 import java.util.regex.Pattern;
 
 /**
- * ClassName: NotCreateObject
- * Description: TODD
- * Author: James Zow
- * Date: 2020/11/18 0018 20:43
- * Version:
- **/
+ * This class test The pattern instance is immutable
+ * 此类测试pattern 实例不可变的情况
+ */
 public class NotCreateObject {
 
     // pattern 实例不可变

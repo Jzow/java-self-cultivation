@@ -14,12 +14,9 @@
 package com.jameszow.factory;
 
 /**
- * ClassName: Main
- * Description: TODD
- * Author: James Zow
- * Date: 2020/11/17 0017 21:19
- * Version:
- **/
+ * This class test BuilderFactory {@link BuilderFactory}
+ * Main测试工厂封装方法
+ */
 public class Main {
 
     public static void main(String[] args) {

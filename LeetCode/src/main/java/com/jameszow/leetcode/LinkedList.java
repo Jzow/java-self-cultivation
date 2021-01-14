@@ -17,6 +17,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * This class uses the console input array for linked operation
+ * 此类使用控制台输入数组m进行链接操作
+ */
 public class LinkedList {
 
     public static class ListNode {

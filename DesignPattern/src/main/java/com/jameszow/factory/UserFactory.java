@@ -14,12 +14,9 @@
 package com.jameszow.factory;
 
 /**
- * ClassName: UserFactory
- * Description: TODD
- * Author: James Zow
- * Date: 2021/1/6 0006 20:57
- * Version:
- **/
+ * This class Through factory packaging User entity class
+ * 此类通过工厂模式封装用户实体类
+ */
 public class UserFactory {
 
     private final int id;

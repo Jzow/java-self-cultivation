@@ -4,12 +4,10 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
- * ClassName: Cache
+ * This class is used to test the implementation of read-write split lock
+ * 此类用于测试读写分离锁的实现
  * Description: 读写分离 读写锁（读-读能共存，读-写不能共存，写-写不能共存）
- * Author: James Zow
- * Date: 2020/11/15 0015 15:28
- * Version:
- **/
+ */
 public class Cache {
     private static volatile Map<String, Object> map= new HashMap<String, Object>();
 

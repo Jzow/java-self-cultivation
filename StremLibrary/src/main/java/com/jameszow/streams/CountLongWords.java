@@ -21,11 +21,8 @@ import java.nio.file.Paths;
 import java.util.*;
 
 /**
- * ClassName: CountLongWords
- * Description: 创建一个流操作,读取一个文件，统计长度大于12的单词
- * Author: James Zow
- * Date: 2021/1/12 0012 20:59
- * Version:
+ * This class reads files by stream, and performs sequential stream and parallel stream operations
+ * 这个类按流读取文件，并执行顺序流和并行流操作
  **/
 public class CountLongWords {
 

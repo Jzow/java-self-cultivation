@@ -17,12 +17,9 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Executor;
 
 /**
- * ClassName: CountDownLatchTest
- * Description: TODD
- * Author: James Zow
- * Date: 2021/1/11 0011 20:58
- * Version:
- **/
+ * This class is used to test the countdownlatch thread timer
+ * 此类是用于测试CountDownLatch 线程计时器
+ */
 public class CountDownLatchTest {
 
     public static long time(Executor executor, int concurrency, Runnable action) throws InterruptedException {

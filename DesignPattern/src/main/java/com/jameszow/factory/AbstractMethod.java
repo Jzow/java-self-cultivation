@@ -18,12 +18,9 @@ import java.util.Objects;
 import java.util.Set;
 
 /**
- * ClassName: abstractMethod
- * Description: TODD
- * Author: James Zow
- * Date: 2020/11/17 0017 22:06
- * Version:
- **/
+ * This class encapsulates enum
+ * 此类封装枚举类型
+ */
 public abstract class AbstractMethod {
 
     public enum Type {

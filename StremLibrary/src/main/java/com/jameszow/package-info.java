@@ -12,6 +12,7 @@
  * language governing permissions and limitations under the License.
  */
 /**
+ * This package operates on Java 8 stream
  * 此包是操作 java 8 stream流
  */
 package com.jameszow;

@@ -14,12 +14,9 @@
 package com.jameszow.factory;
 
 /**
- * ClassName: privateUtility
- * Description: TODD
- * Author: James Zow
- * Date: 2020/11/17 0017 22:02
- * Version:
- **/
+ * This class create Private Constructor
+ * 此类创建私有构造器
+ */
 public class PrivateUtility {
 
     private PrivateUtility() {
