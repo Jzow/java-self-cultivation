@@ -29,7 +29,7 @@ public class CountLongWords {
     public static void main(String [] args) throws IOException {
         var contents = new String(Files.readAllBytes(
                 Paths.get("../JavaSelfCultivation/StremLibrary/src/main/resources/words.txt")), StandardCharsets.UTF_8);
-        List<String> words = List.of(contents.split("\r\n"));
+        List<String> words = List.of(contents);
 
         long count = 0;
 
@@ -37,14 +37,13 @@ public class CountLongWords {
             if(w.length() > 12)
                 count++;
         }
-        System.out.println(count);
 
         // 顺序流
         count = words.stream().filter(w -> w.length() > 12).count();
-        System.out.println(count);
+        System.out.println("顺序流" + count);
 
         // 并行流 多线程异步处理集合
         count = words.parallelStream().filter(w -> w.length() > 12).count();
-        System.out.println(count);
+        System.out.println("并行流" + count);
     }
 }
