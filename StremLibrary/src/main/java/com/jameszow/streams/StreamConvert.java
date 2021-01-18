@@ -26,6 +26,7 @@ import java.util.stream.Stream;
 public class StreamConvert {
 
     private static final List<String> words = new ArrayList<>(){
+        // 两个大括号 第一对大括号表明new()
         {
             add("filter");
             add("map");
@@ -35,9 +36,9 @@ public class StreamConvert {
     };
 
     public static void main(String [] args){
-        // streamFilter();
-        // streamMap();
-        streamFlatmap();
+        //streamFilter();
+        streamMap();
+        // streamFlatmap();
     }
 
     public static void streamFilter(){
@@ -47,9 +48,9 @@ public class StreamConvert {
     }
 
     public static void streamMap(){
-        // 转换小写
-        Stream<String> lowercaseWords = words.stream().map(String::toUpperCase);
-        show("lowercaseWords", lowercaseWords);
+        // 转换大写
+        Stream<String> uppercaseWords = words.stream().map(String::toUpperCase);
+        show("uppercaseWords", uppercaseWords);
         // 截取字符串首字母
         Stream<String> subWords = words.stream().map(s -> s.substring(0, 1));
         show("subWords", subWords);
