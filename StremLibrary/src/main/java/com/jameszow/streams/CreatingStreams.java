@@ -56,6 +56,7 @@ public class CreatingStreams {
     }
 
     public static <T> void show(String title, Stream<T> stream){
+        // 控制打印输出字符范围在10以内（针对顺序流 超过10后... 表示）
         final int SIZE = 10;
         List<T> firstElements = stream.limit(SIZE + 1).collect(Collectors.toList());
         System.out.println(title + ": ");
@@ -75,7 +76,7 @@ public class CreatingStreams {
         Path path = Paths.get("../JavaSelfCultivation/StremLibrary/src/main/resources/words.txt");
         var contents = new String(Files.readAllBytes(path), StandardCharsets.UTF_8);
 
-        Stream<String> words = Stream.of(contents.split("\r\n"));
+        Stream<String> words = Stream.of(contents);
         show("words", words);
         Stream<String> colors = Stream.of("green", "blue", "yellow", "red");
         show("colors", colors);
@@ -90,6 +91,7 @@ public class CreatingStreams {
         Stream<BigInteger> integers = Stream.iterate(BigInteger.ZERO, n -> n.add(BigInteger.ONE));
         show("integers", integers);
 
+        // Stream流将迭代器转换成一个未知尺寸的可分割的迭代器
         Iterator<Path> iterator = Paths.get("/words").iterator();
         Stream<Path> pathComponets = StreamSupport.stream(Spliterators.spliteratorUnknownSize(
                 iterator, Spliterator.ORDERED), false);
