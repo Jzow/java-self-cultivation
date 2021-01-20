@@ -25,6 +25,7 @@ import java.util.Optional;
 /**
  * ClassName: OptionalTest
  * Description: This class How to use Optional API
+ * 这个类讲述如何使用Optional API
  */
 public class OptionalTest {
 
