@@ -36,6 +36,7 @@ public class CollectingResults {
         );
         List<String> wordsList = List.of(contents);
         Stream<String> words = wordsList.stream();
+        // 返回的正则表达式,筛选当前单词的字母包含括号里面的某一个字符替换成“”空字符串
         return words.map(s -> s.replaceAll("[aeiouAEIOU]", ""));
     }
 
