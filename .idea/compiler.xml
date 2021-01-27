@@ -7,11 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="DesignPattern" />
         <module name="CollectionLearning" />
+        <module name="StremLibrary" />
         <module name="ThreadLearning" />
         <module name="LeetCode" />
-        <module name="DesignPattern" />
-        <module name="StremLibrary" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="14" />

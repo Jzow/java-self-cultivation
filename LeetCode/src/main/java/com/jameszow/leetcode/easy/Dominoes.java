@@ -21,7 +21,7 @@ public class Dominoes {
 
 
     public static void main(String [] args){
-        int[][] a = new int[][] {{1, 3}, {5, 7}, {3, 1}, {7, 9}};
+        int[][] a = new int[][] {{1, 3}, {5, 7}, {3, 1}, {7, 9}, {7, 9}};
         System.out.println(numEquivDominoPairs(a));
     }
 
@@ -37,6 +37,8 @@ public class Dominoes {
         int[] num = new int[100];
         int count = 0;
         for (int[] domino : dominoes) {
+            // 这里位数运算，也就是条件成立把数组里的下标0元素X10+下标1元素，反之第二个条件 是下标1元素X10+下标0元素
+            // 当为[1, 3]1*10+3   当为[3, 1]1*10+3  结果相等 计数器++
             int val = domino[0] < domino[1] ? domino[0] * 10 + domino[1] : domino[1] * 10 + domino[0];
             count += num[val];
             num[val]++;
