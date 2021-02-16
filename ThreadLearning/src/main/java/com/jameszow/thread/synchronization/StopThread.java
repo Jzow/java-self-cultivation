@@ -42,8 +42,9 @@ public class StopThread {
         public static void forRunThread() throws InterruptedException {
             Thread backgroundThread = new Thread(() -> {
                 int i = 0;
-                while (!stopRequested)
+                while (!stopRequested) {
                     i++;
+                }
             });
             backgroundThread.start();
 
@@ -70,8 +71,9 @@ public class StopThread {
         public static void synchronizedThread() throws InterruptedException {
             Thread synchronizedThread = new Thread(() -> {
                 int j = 0;
-                while (!stopRequested())
+                while (!stopRequested()){
                     j++;
+                }
             });
             synchronizedThread.start();
 
@@ -106,8 +108,9 @@ public class StopThread {
         public static void volatileThread() throws InterruptedException {
             Thread volatileThread = new Thread(() -> {
                int k = 0;
-               while (!stopRequested)
+               while (!stopRequested){
                    k++;
+               }
             });
 
             volatileThread.start();
