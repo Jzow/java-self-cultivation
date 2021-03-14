@@ -19,8 +19,8 @@ import java.util.concurrent.atomic.AtomicLong;
 /**
  * This class Thread synchronization test
  * 此类创建线程同步测试
- * Description: 当多个线程共享可变的数据时候，每个读或者写的线程都必须执行同步，
- * 如若不同步，会导致主线程修改的数据，后面的线程是无法看到主线程修改的数据，
+ * Description: 当多个线程共享可变的数据时候，每个读或者写的线程都必须执行同步.
+ * 如若不同步，会导致主线程修改的数据，后面的线程是无法看到主线程修改的数据.
  * 同步线程可使用synchronized关键字对方法进行修饰，或者最好使用volatile关键字进行同步
  *
  */
@@ -42,8 +42,9 @@ public class StopThread {
         public static void forRunThread() throws InterruptedException {
             Thread backgroundThread = new Thread(() -> {
                 int i = 0;
-                while (!stopRequested)
+                while (!stopRequested) {
                     i++;
+                }
             });
             backgroundThread.start();
 
@@ -70,8 +71,9 @@ public class StopThread {
         public static void synchronizedThread() throws InterruptedException {
             Thread synchronizedThread = new Thread(() -> {
                 int j = 0;
-                while (!stopRequested())
+                while (!stopRequested()){
                     j++;
+                }
             });
             synchronizedThread.start();
 
@@ -106,8 +108,9 @@ public class StopThread {
         public static void volatileThread() throws InterruptedException {
             Thread volatileThread = new Thread(() -> {
                int k = 0;
-               while (!stopRequested)
+               while (!stopRequested){
                    k++;
+               }
             });
 
             volatileThread.start();
