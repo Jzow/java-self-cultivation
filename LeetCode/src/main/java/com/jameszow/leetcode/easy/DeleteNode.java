@@ -13,6 +13,12 @@
  */
 package com.jameszow.leetcode.easy;
 
+/**
+ * 删除中间节点
+ * 删除单向链表当中的某个节点 比如
+ * 输入：单向链表a->b->c->d->e->f中的节点c
+ * 输出：不用返回数据，该链表变为a->b->d->e->f
+ */
 public class DeleteNode {
 
     public class ListNode{
