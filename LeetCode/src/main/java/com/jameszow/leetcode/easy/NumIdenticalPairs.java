@@ -13,6 +13,14 @@
  */
 package com.jameszow.leetcode.easy;
 
+/**
+ * 好数对的 数目
+ * 好数对的意思是 一个数组里 相同的数字认为它们是一对好数对 比如
+ * 输入 n = {1, 2, 3, 1, 1, 3}
+ * 那么下标(0, 3), (0, 4), (0, 5), (2, 5) 是好数对
+ * 返回 好数对 数目
+ * 输出 n = 4
+ */
 public class NumIdenticalPairs {
 
    public static void main(String [] args){
