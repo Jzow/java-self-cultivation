@@ -30,7 +30,7 @@ public class RemoveDuplicates {
 
     /**
      * 双指针
-     * nums[slow] 慢指针 表示处理出的数组长度
+     * nums[slow] 慢指针 表示处理中的数组长度
      * nums[fast] 快指针 表示已经检查过的数组长度
      * 当nums[slow - 2] = nums[fast] 当前检查元素nums[fast]不应该保留
      * @param nums
