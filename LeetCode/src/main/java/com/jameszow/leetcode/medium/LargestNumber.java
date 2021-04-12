@@ -11,8 +11,16 @@
  * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific
  * language governing permissions and limitations under the License.
  */
+package com.jameszow.leetcode.medium;
+
 import java.util.Arrays;
 
+/*
+ * 最大数
+ * 给定一个数组nums,重新排列每个数的顺序，返回出一个最大的整数，为了考虑超出整数返回 返回字符串
+ * 例如 nums = [3,30,34,5,9]
+ * 输出 9534330
+ */
 public class LargestNumber {
 
     public static void main(String [] args){
