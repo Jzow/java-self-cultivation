@@ -30,15 +30,15 @@ public class RemoveDuplicates {
         if(length < 1){
             return length;
         }
-        int slow = 1, fast = 1;
-        while (fast < length){
-            if(nums[slow - 1] != nums[fast]){
-                nums[slow] = nums[fast];
-                slow++;
+        int left = 1, right = 1;
+        while (right < length){
+            if(nums[left - 1] != nums[right]){
+                nums[left] = nums[right];
+                left++;
             }
-            fast ++;
+            right ++;
         }
-        return slow;
+        return left;
     }
 
 }
