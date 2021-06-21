@@ -29,5 +29,11 @@ public class UserFactoryTest {
 
         System.out.println(userFactory);
 
+        Disease disease = new Disease.Builder(2)
+                .diseaseName("脑血栓")
+                .diseaseCase("大量脑出血")
+                .Builder();
+
+        System.out.println(disease);
     }
 }
