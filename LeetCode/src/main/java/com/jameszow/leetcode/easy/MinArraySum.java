@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class MinArraySum {
     public int minMoves(int[] nums) {
         int minNum = Arrays.stream(nums).min().getAsInt();

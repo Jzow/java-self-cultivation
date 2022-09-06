@@ -1,3 +1,7 @@
+package com.jameszow.leetcode.medium;
+
+import java.util.Arrays;
+
 public class FindMaxLength {
     public int findMaxLength(int[] nums) {
         int n  = nums.length;

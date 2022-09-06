@@ -5,11 +5,14 @@
     <parent>
         <artifactId>JavaSelfCultivation</artifactId>
         <!-- ihup.org.cn International Institute of human phenotypes -->
-        <groupId>ihup.org.cn</groupId>
+        <groupId>com.jameszow</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>ThreadLearning</artifactId>
-
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
 </project>

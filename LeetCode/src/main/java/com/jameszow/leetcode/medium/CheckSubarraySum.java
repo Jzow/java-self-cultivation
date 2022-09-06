@@ -1,3 +1,8 @@
+package com.jameszow.leetcode.medium;
+
+import java.util.HashSet;
+import java.util.Set;
+
 public class CheckSubarraySum {
     public boolean checkSubarraySum(int[] nums, int k) {
         int n = nums.length;
