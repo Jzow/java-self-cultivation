@@ -1,0 +1,17 @@
+server:
+  port: 8873
+
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    lettuce:
+      pool:
+        max-active: 8
+        # -1 没有阻塞
+        max-wait: -1
+        min-idle: 8
+    jedis:
+      pool:
+        min-idle: 0
+    timeout: 30000
