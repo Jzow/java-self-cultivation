@@ -1,5 +1,5 @@
 # Project exclude paths
-/target/
+**/target/
 
 README.md
 
