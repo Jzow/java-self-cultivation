@@ -15,7 +15,7 @@
         <module>CollectionLearning</module>
         <module>StremLibrary</module>
         <module>LeetCode</module>
-        <module>Lock</module>
+        <module>Redis</module>
         <module>Basics</module>
     </modules>
 
