@@ -7,7 +7,7 @@ package com.jameszow.decorator;
  * @author James Zow
  * @create 2022/9/11
  */
-public class TesatStaticMain {
+public class TestStaticMain {
 
     public static void main(String[] args) {
         Chicken KFCChicken = new KFC();
