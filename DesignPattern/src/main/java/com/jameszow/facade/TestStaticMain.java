@@ -1,4 +1,4 @@
-package facade;
+package com.jameszow.facade;
 
 /**
  * 主函数测试方法

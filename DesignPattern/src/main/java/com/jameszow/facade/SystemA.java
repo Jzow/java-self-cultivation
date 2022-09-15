@@ -1,4 +1,4 @@
-package facade;
+package com.jameszow.facade;
 
 /**
  * 系统A
